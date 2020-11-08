@@ -17,6 +17,10 @@ body {
   min-width: 445px;
 }
 
+h4 {
+  margin-top: 0;
+}
+
 .section h1, h2, h3, h4, h5, h6 {
   font-family: poor;
   letter-spacing: .1em;
@@ -46,7 +50,7 @@ nav {
 
 .nav__link {
   text-decoration: underline;
-  width:20%;
+  width:25%;
   text-align: center;
 }
 
@@ -170,16 +174,29 @@ nav {
   color:black;
   /* transform: scale(1.15); */
 }
+
 .section__details {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
+.section__msg {
+  text-align: left;
+}
+
 .section__img-container {
   position: relative;
   overflow: hidden;
   margin: auto;
+}
+
+.section--couple {
+  padding-bottom: 0;
+}
+
+#ourstory {
+  padding-top:0;
 }
 
 .sq400 {
@@ -393,18 +410,36 @@ padding:10px 0;
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-.otro-blockquote{
-  /* font-size: 1.4em;
-  width:60%;
-  margin:50px auto; */
+
+.otro-blockquote {
   font-family:Open Sans;
   font-style:italic;
-  color: #8d6363;
-  padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid #78C0A8 ;
   line-height:1.6;
   position: relative;
+  padding: .5em 30px .5em 48px;
   background:#EDEDED;
+}
+
+.otro-blockquote__name {
+  text-align: right;
+}
+
+.otro-blockquote--bride{
+  border-left:8px solid #9E8116;
+}
+
+.otro-blockquote--groom{
+  color: #2c343a;
+  border-left:8px solid #1B3140;
+  background:#EDEDED;
+}
+
+.otro-blockquote--bride::before {
+  color: #9E8116 !important;
+}
+
+.otro-blockquote--groom::before {
+  color: #1B3140 !important;
 }
 
 .otro-blockquote::before{
