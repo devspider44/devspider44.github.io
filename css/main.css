@@ -377,6 +377,25 @@ padding:10px 0;
   }
 }
 
+.gift {
+  padding-left:2px;
+  padding-right: 2px;
+}
+
+.gift:hover {
+  overflow:hidden;
+  /* border: 1px solid gray; */
+}
+
+.gift__img:hover{
+  transform: scale(1.15);
+}
+
+.gift__img{
+  transition: transform 4s;
+}
+
+
 @media only screen and (min-width: 601px) {
   .row .col.m5cols {
     width: 20%;
