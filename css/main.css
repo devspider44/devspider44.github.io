@@ -7,9 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   font-family: 'Aleo', serif;
