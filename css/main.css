@@ -283,6 +283,17 @@ nav {
   background-color: #1b313f;
 }
 
+.page-footer--fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.section--small {
+  padding-bottom: 50px;
+}
+
 .section-countdown {
   height: 400px; 
 }
