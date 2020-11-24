@@ -464,6 +464,21 @@ padding:10px 0;
   background:#EDEDED;
 }
 
+.otro-blockquote--messages{	
+  /* font-size: 1.4em;	.otro-blockquote {
+  width:60%;	
+  margin:50px auto; */	
+  font-family:Open Sans;	  font-family:Open Sans;
+  font-style:italic;	  font-style:italic;
+  color: #8d6363;	
+  padding:1.2em 30px 1.2em 75px !important;	
+  border-left:8px solid #78C0A8 ;	
+  line-height:1.6;	  line-height:1.6;
+  position: relative;	  position: relative;
+  padding: .5em 30px .5em 48px;
+  background:#EDEDED;	  background:#EDEDED;
+}
+
 .otro-blockquote__name {
   text-align: right;
 }
